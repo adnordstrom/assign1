@@ -86,10 +86,13 @@ h1 {
 }
 
 main {
+    
+    
+}
+.content-1 {
     background-color: #F9FAF8;
     height: 300px;
     padding-top: 30px;
-    
 }
 .content-1-blue-box {
     width: 100px;
@@ -116,10 +119,57 @@ main {
 .content-1-content-box p {
     color: grey;
     font-size: 10px;
+    margin-left: 5px;
+}
+.content-2{
+    background-color: #E5E7EB;
+    height: 250px;
+    display: flex;
+}
+.quote {
+    font-family:'Times New Roman', Times, serif;
+    color: #1F2937;
+    font-weight: bold;
+}
+.quote-author {
+    color: black;
+}
+.content-2-container-box {
+    display: flex;
+    flex-basis: 25%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-2-box-quote {
+    display: flex;
+    justify-content:end;
+    
+}
+.content-3 {
+    background-color: #F9FAF8;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-3-container-box {
+    flex-basis: 50%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
-
+footer {
+    background-color: #1F2937;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
 
 
 
@@ -132,4 +182,7 @@ main {
     color: white;
     font-weight: bold;
     margin-top: 15px;
+}
+.btn-content-3 {
+    border: 1px solid white;
 }
